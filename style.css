@@ -1,11 +1,10 @@
 h1 {
-    text-shadow: 2px 2px green;
     text-decoration: underline;
-    font-style: italic;
-    font-family: 'Imbue', serif;
+    text-transform: uppercase;
+    font-family: 'Reenie Beanie', cursive;
 }
 
-a {color: blue}
+a {color: #D4B996FF}
 
 .unique-class {
     text-shadow: 2px 2px blue;
@@ -15,4 +14,9 @@ a {color: blue}
 
 .red-text {
     color: red;
+}
+
+.blogs-handwriting {
+    font-family: 'Reenie Beanie', cursive; font-size: 30px;
+
 }
