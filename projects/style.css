@@ -122,14 +122,6 @@ hr {
 
 }
 
-.hr1 {
-    margin-left: 100px;
-}
-
-.hr2 {
-    margin-right: 100px;
-}
-
 .topSketch {
     /* background: #e7a6ff; */
     grid-column: 3/4;
@@ -140,6 +132,10 @@ hr {
     /* background: #ffe6ae; */
     grid-column: 2/3;
     grid-row: 2/3;
+
+}
+
+.dentistName {
 
 }
 
@@ -188,8 +184,14 @@ hr {
 
 
 .section1 {
-    background-size: 40px 40px;
-    background-color: #C7ACA1;
+    /* background-size: 40px 40px; */
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    
+    /* background-color: #C7ACA1; */
     /* background-image: */
         linear-gradient(to right, #628db2 1px, transparent 1px),
         linear-gradient(to bottom, #628db2 1px, transparent 1px);
@@ -199,16 +201,34 @@ hr {
     background-color: #fffaf1;
 }
 
+.sec2Content {
+    height: 70%;
+}
+
+.middlebackcolor {
+   
+
+}
+
 .section3 {
-    background-size: 40px 40px;
-    background-image:
-        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
-        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
     background-color: #fffaf1;
+    background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%)
+}
+
+.sec3Content {
+    height: 70%;
 }
 
 .section4 {
     background-color:  #fffaf1;
+    background-size: 40px 40px;
+    background-image:
+        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
+        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+}
+
+.sec4Content {
+    height: 70%;
 }
 
 .section5 {
@@ -221,11 +241,10 @@ hr {
 
 .sec5Content {
     height: 70%;
-    margin-top: 100px;
 }
 
 section div {
-    font-family: 'Open Sans';
+    font-family: 'Cormorant Garamond, serif';
     font-style: normal;
     text-align: center;
     display: flex;
