@@ -1,10 +1,12 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-size: 40px 40px;
     background-color: #fffaf1;
+    display: flex;
+    flex-direction: column;
     /* background-image: */
         /* linear-gradient(to right, #628db2 1px, transparent 1px), */
         /* linear-gradient(to bottom, #628db2 1px, transparent 1px); */
@@ -211,10 +213,15 @@ hr {
 
 .section5 {
     background-color:  #fffaf1;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+
+.sec5Content {
+    height: 70%;
+    margin-top: 100px;
 }
 
 section div {
@@ -238,8 +245,9 @@ span {
 .footer {
     background: #303036;
     color: #d3d3d3;
-    height: 400px;
+    height: 30%;
     position: relative;
+    flex-shrink: 0;
 }
 
 .footer-content {
