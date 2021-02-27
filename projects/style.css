@@ -128,17 +128,6 @@ hr {
     grid-row: 2/3;
 }
 
-.landingBox {
-    /* background: #ffe6ae; */
-    grid-column: 2/3;
-    grid-row: 2/3;
-
-}
-
-.dentistName {
-
-}
-
 .flexyCol {
     display: flex;
     flex-direction: column;
@@ -173,7 +162,9 @@ hr {
 }
 
 .left {
-    text-align: left
+    text-align: left;
+    float: left;
+    padding: 0 20px 20px 0;
 }
 
 .bookbutton {
@@ -189,6 +180,7 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
     opacity: 0.7;
     
     /* background-color: #C7ACA1; */
@@ -197,22 +189,23 @@ hr {
         linear-gradient(to bottom, #628db2 1px, transparent 1px);
 }
 
+.DentistName {
+    /* background: #ffe6ae; */
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: block;
+    position: relative;
+
+}
+
 .section2 {
     background-color: #fffaf1;
-}
-
-.sec2Content {
-    height: 70%;
-}
-
-.middlebackcolor {
-   
-
+    background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%)
 }
 
 .section3 {
     background-color: #fffaf1;
-    background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%)
+    
 }
 
 .sec3Content {
@@ -285,3 +278,52 @@ span {
     left: 0px;
     padding-top: 20px;
 }
+
+/* SCROLL DOWN ARROW */
+.arrows {
+	width: 60px;
+	height: 72px;
+    position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: -70%;
+}
+
+.arrows path {
+	stroke: black;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a3 {	
+        animation-delay:0s;
+        -webkit-animation-delay:0s; /* Safari 和 Chrome */
+    }
