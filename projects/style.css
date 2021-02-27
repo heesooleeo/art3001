@@ -200,11 +200,11 @@ hr {
 
 .section2 {
     background-color: #fffaf1;
-    background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%)
+    /* background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%) */
 }
 
 .section3 {
-    background-color: #fffaf1;
+    background-color: #C7ACA1;
     
 }
 
@@ -214,14 +214,25 @@ hr {
 
 .section4 {
     background-color:  #fffaf1;
-    background-size: 40px 40px;
-    background-image:
-        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
-        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+    position: static;
+    z-index: 1;
 }
 
 .sec4Content {
-    height: 70%;
+    background-size: 20px 20px;
+    background-image:
+        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
+        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+    position: fixed;
+    /* background-position: center; */
+    height: 90%;
+    width: 70%;
+    background-color: transparent;
+    background-origin: initial;
+    border: 10px dotted black;
+    padding: 25px;
+    z-index: 2;
+    
 }
 
 .section5 {
