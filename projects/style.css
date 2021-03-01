@@ -305,7 +305,7 @@ hr {
     stroke-miterlimit: 10;
     stroke-dasharray: 338;
     stroke-dashoffset: 338;
-    stroke-linecap: round 0%;
+    stroke-linecap: round;
     position: absolute;
     top: 50%;
     left: 20%;
@@ -320,7 +320,7 @@ hr {
     stroke: #ff4c4c;
   }
   
-  .menu__link--active svg,
+  /* .menu__link--active svg, */
   .menu__link:hover svg {
     stroke-dashoffset: 0;
     opacity: 1;
