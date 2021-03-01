@@ -141,7 +141,7 @@ hr {
     /* background: #ffabb1; */
     grid-column: 2/4;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr;
+    grid-template-columns: 0.8fr 1fr 1fr 1fr 1fr;
 }
 
 .flexyRow {
@@ -152,13 +152,31 @@ hr {
     grid-column: 2/5;
 }
 
-.button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    grid-column: 5/-1;
-    grid-row: 2;
+.bookonlinebox {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    display: grid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bookbutton {
+    background-color: #628db281;
+    border: none;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button:hover {background-color: darkmagenta;}
+
+.button:active {
+    background-color: blue;
+    box-shadow: 0 5px yellow;
+    transform: translateY(4px);
 }
 
 .left {
@@ -167,13 +185,7 @@ hr {
     padding: 0 20px 20px 0;
 }
 
-.bookbutton {
-   padding-right: 10px;
-}
-
 /* fullPage Scroll  */
-
-
 .section1 {
     /* background-size: 40px 40px; */
     /* background-image: url("img/background.jpg"); */
@@ -181,17 +193,19 @@ hr {
     /* background-position: center; */
     /* background-size: cover; */
     position: relative;
+    width: 100px;
+    height: 100px;
     /* opacity: 0.7; */
-    
     /* background-color: #C7ACA1; */
-    /* background-image: */
-        linear-gradient(to right, #628db2 1px, transparent 1px),
-        linear-gradient(to bottom, #628db2 1px, transparent 1px);
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr) ;
 }
 
 .s1bg {
-    width: 100%;
-    height: 100%;
+    width: 100%; 
+    height: 100%; 
     position: absolute;
     background-image: url("img/background.jpg");
     background-repeat: no-repeat;
@@ -199,16 +213,73 @@ hr {
     background-size: cover;
     opacity: 0.7;
 
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/3;
+
 }
 
 .DentistName {
     /* background: #ffe6ae; */
-    grid-column: 2/3;
-    grid-row: 2/3;
     display: block;
     position: relative;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-right: 200px;
+    padding-top: 200px;
 
 }
+
+/* SCROLL DOWN ARROW */
+.arrows {
+	width: 60px;
+	height: 72px;
+    position: absolute;
+    bottom: 10%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-content: center;
+    /* display: grid; */
+}
+
+.arrows path {
+	stroke: black;
+	fill: transparent;
+	stroke-width: 1.3px;	
+	animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+    }
+    
+    .arrows path.a1 {
+        animation-delay:-1s;
+        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a2 {
+        animation-delay:-0.5s;
+        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+    }
+    
+    .arrows path.a3 {	
+        animation-delay:0s;
+        -webkit-animation-delay:0s; /* Safari 和 Chrome */
+    }
 
 .section2 {
     background-color: #fffaf1;
@@ -359,8 +430,6 @@ section div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 span {
@@ -396,51 +465,3 @@ span {
     padding-bottom: 5px;
 }
 
-/* SCROLL DOWN ARROW */
-.arrows {
-	width: 60px;
-	height: 72px;
-    position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: -70%;
-}
-
-.arrows path {
-	stroke: black;
-	fill: transparent;
-	stroke-width: 1.3px;	
-	animation: arrow 2s infinite;
-    -webkit-animation: arrow 2s infinite; 
-}
-
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
-}
-
-@-webkit-keyframes arrow /*Safari and Chrome*/
-{
-    0% {opacity:0}
-    40% {opacity:1}
-    80% {opacity:0}
-    100% {opacity:0}
-    }
-    
-    .arrows path.a1 {
-        animation-delay:-1s;
-        -webkit-animation-delay:-1s; /* Safari 和 Chrome */
-    }
-    
-    .arrows path.a2 {
-        animation-delay:-0.5s;
-        -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-    }
-    
-    .arrows path.a3 {	
-        animation-delay:0s;
-        -webkit-animation-delay:0s; /* Safari 和 Chrome */
-    }
