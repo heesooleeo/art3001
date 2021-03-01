@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <g
+       id="g35"
+       transform="matrix(2.2899262,0,0,2.2899262,45.870984,63.653642)">
+      <g
+         id="g16"
+         transform="matrix(1.313333,0,0,1.313333,-12.536002,-9.9320249)">
+        <path
+           d="m 35.364,45.544 a 0.684,0.684 0 0 1 -0.659,0.709 H 24.486 A 0.687,0.687 0 0 1 23.823,45.544 V 44.187 H 1.027 v 2.267 a 1.812,1.812 0 0 0 1.749,1.866 h 54.452 a 1.808,1.808 0 0 0 1.744,-1.866 V 44.187 H 35.364 Z"
+           id="path12" />
+        <path
+           d="M 53.487,14.512 A 2.834,2.834 0 0 0 50.649,11.68 H 8.541 A 2.832,2.832 0 0 0 5.706,14.512 V 42.568 H 53.487 Z M 50.549,39.158 H 8.641 V 15.811 h 41.908 z"
+           id="path14" />
+      </g>
+      <text
+         x="0"
+         y="80"
+         fill="#000000"
+         font-size="5px"
+         font-weight="bold"
+         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+         id="text20"
+         style="white-space:pre;inline-size:17.534"
+         transform="matrix(3.2128087,0,0,3.2128087,9.5606023,-185.45804)"
+         xml:space="preserve"><tspan
+           x="0"
+           y="80"><tspan>Blog</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
