@@ -176,17 +176,29 @@ hr {
 
 .section1 {
     /* background-size: 40px 40px; */
-    background-image: url("img/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    /* background-image: url("img/background.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
     position: relative;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     
     /* background-color: #C7ACA1; */
     /* background-image: */
         linear-gradient(to right, #628db2 1px, transparent 1px),
         linear-gradient(to bottom, #628db2 1px, transparent 1px);
+}
+
+.s1bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+
 }
 
 .DentistName {
@@ -203,36 +215,49 @@ hr {
     /* background: linear-gradient(110deg, #C7ACA1 60%, #fffaf1 30%) */
 }
 
-.section3 {
+.s2bg {
+    width: 100%;
+    height: 50%;
     background-color: #C7ACA1;
-    
+    background-position: center;
+    position: fixed;
 }
 
-.sec3Content {
-    height: 70%;
+.s2p {
+    position: relative;
 }
 
-.section4 {
-    background-color:  #fffaf1;
-    position: static;
+.section3 {
+    background-color: #fffaf1;
     z-index: 1;
+    position: static;
 }
 
-.sec4Content {
+.s3bg {
     background-size: 20px 20px;
     background-image:
         linear-gradient(to right, #C7ACA1 1px, transparent 1px),
         linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
-    position: fixed;
+    position: relative;
     /* background-position: center; */
-    height: 90%;
-    width: 70%;
+    height: 54.5%;
+    width: 80%;
     background-color: transparent;
     background-origin: initial;
-    border: 10px dotted black;
+    /* border: 10px dotted black; */
     padding: 25px;
     z-index: 2;
-    
+}
+
+.sec3Content {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr ;
+}
+
+.section4 {
+    background-color:  #C7ACA1;
 }
 
 .section5 {
