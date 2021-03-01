@@ -314,13 +314,15 @@ hr {
     transform: translate(-20mm, -11mm);
     transition: stroke-dashoffset 0s 0.2s, opacity 0.2s;
     z-index: -1;
+    border-radius: 0;
+    border: 300%;
   }
   
   .menu__link--active svg {
     stroke: #ff4c4c;
   }
   
-  /* .menu__link--active svg, */
+  .menu__link--active svg,
   .menu__link:hover svg {
     stroke-dashoffset: 0;
     opacity: 1;
