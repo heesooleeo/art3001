@@ -1,0 +1,71 @@
+.exercisesbg {
+    background-size: 20px 20px;
+    background-image:
+        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
+        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+    position: relative;
+    height: 79.5%;
+    width: 84.8%;
+    background-color: transparent;
+    background-origin: initial;
+    /* border: 10px dotted black; */
+    padding: 25px;
+    /* z-index: 2; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 2fr 2fr 0.5fr;
+    justify-content: center;
+}
+
+.exercisestitle {
+    display: grid;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    color: #41403E;
+    font-weight: bold;
+}
+
+#exercisesscribble {
+    background: url(../projects/img/bottomborderimage.png) no-repeat center center;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    background-size: contain;
+    height: 25px;
+}
+
+.exercises1 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.exercises2 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.exercises3 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.exercises4 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.exercises5 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.exercises6 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
