@@ -2,6 +2,14 @@
     font-family: 'Reenie Beanie', cursive; font-size: 30px;
 }    
 
+.headerlogogrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .blogbg {
     background-size: 20px 20px;
     background-image:
