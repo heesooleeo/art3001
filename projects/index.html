@@ -1,197 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>fullPageScrollPureJS Example</title>
-    <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css">
+    <title>Projects</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+    </style>
+    <link rel="stylesheet" href="../exercises/style.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/paper.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="../blog/style.css">
 </head>
 
-<body>
-                <header>
-                    <div class="logoBox">
-                        <div class="logoImg flexy">
-                            <img src="https://heesooleeo.github.io/art3001/projects/img/logoimage.png" alt="Logo Image"
-                                width="85" height="80">
-                        </div>
-                        <div class="compTitle flexyCol">Westlake Dentistry</div>
-                        <div class="tagline flexyCol">Dentistry for Kids</div>
-                    </div>
-                    <div class="logisticBox">
-                        <div class="compInfo">
-                            <div class="addBox flexyCol">
-                                <div class="compInfoColumn">
-                                    <div class="compInfoColumnImage">
-                                        <img src="https://heesooleeo.github.io/art3001/projects/img/addresslogo.png"
-                                            alt="Address Logo" width="50" height="50">
-                                    </div>
-                                    <div class="compInfoColumnDetails">
-                                        <p>
-                                            123 E Ave
-                                            <br>
-                                            Houston, TX 12345
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="hrsBox flexyCol">
-                                <div class="compInfoColumn">
-                                    <div class="compInfoColumnImage">
-                                        <img src="https://heesooleeo.github.io/art3001/projects/img/clocklogo.png"
-                                            alt="Clock Logo" width="50" height="50">
-                                    </div>
-                                    <div class="compInfoColumnDetails">
-                                        <p>
-                                            M-W: 8am-5pm
-                                            <br>
-                                            F-Sat: 8am-3pm
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="phoneBox flexyCol">
-                                <div class="compInfoColumn">
-                                    <div class="compInfoColumnImage">
-                                        <img src="https://heesooleeo.github.io/art3001/projects/img/phonelogo.png"
-                                            alt="phone logo" width="50" height="50">
-                                    </div>
-                                    <div class="compInfoColumnDetails">
-                                        <p> (216)-212-9786</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="socialBox flexyCol">
-                                <a href=""> <img src="https://heesooleeo.github.io/art3001/projects/img/Fblogo.png" alt=""
-                                        width="50" height="50"></a>
-                            </div>
-                            <hr>
-                        </div>
-    
-                        <nav class="flexyRow">
-                            <ul>
-                                <li><a href="" id="hyperlinklinegone">About Us</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="" id="hyperlinklinegone">Services</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="" id="hyperlinklinegone">Patient Resources</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="" id="hyperlinklinegone">Blog</a></li>
-                            </ul>
-                            <ul>
-                                <li><a href="" id="hyperlinklinegone">Contact Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </header>
-    
-    <div id="main" class="scroll-container">
-        <section class="section1 flexyCol">
-            <div>
-                <div class="landingBox flexyCol">
-                    <div class="dentistName">
-                        <h1>
-                            Heesoo Lee, DDS
-                        </h1>
-                    </div>
-                    <div class="apptButt">
-                        <button>
-                            BOOK NOW
-                        </button>
-                    </div>
-                    
-                </div>
+<body class="blogs-handwriting flexyCol"> 
+    <header>
+        <div class="headerlogogrid" style="top: 0;
+        right: 47%; padding-top: 7px">
+            <div class="">
+                <a href="../projects/index2.html">
+                    <img src="../projects/img/logo.svg" alt="Logo Image"
+                    width="85" height="75">
+                </a>
             </div>
-        </section>
-        <section class="section2 flexyCol">
-        
-                <canvas id="canvas" resize></canvas>
-            
-        </section>
-        <section class="section3">
-            <div>
-                <span>Section 3</span>
-            </div>
-        </section>
-        <section class="section4">
-            <div>
-                <span>Section 4</span>
-            </div>
-        </section>
-        <section class="section5">
-            <div>
-                <span>Section 5</span>
-            </div>
-        </section>
+    </header>
+
+    <div class="projectbg">
+        <div class="projecttitle">
+            <h1 style="text-decoration: none; margin-bottom: 0;">Projects</h1>
+        </div>
+
+        <div id="projectsscribble" style="padding-bottom: 50px;"></div>
+
+        <div class="projects1 flexyCol" style="margin-left: auto;">
+            <a href="index2.html"><button class="linedthick button" style="block-size: 200px;">1</button></a>
+        </div>
+
+        <div class="projects2 flexyCol" style="margin-right: auto;">
+            <a href=""><button class="dashedthick button"style="block-size: 200px;">2</button></a>
+        </div>
+
     </div>
-    <script src="js/full-page-scroll.js"></script>
-    <script type="text/paperscript" canvas="canvas">
-        var width, height, center;
-        var points = 10;
-        var smooth = true;
-        var path = new Path({
-            fillColor: 'black'
-        });
-        var mousePos = view.center / 2;
-        var pathHeight = mousePos.y;
-        initializePath();
 
-        function initializePath() {
-            center = view.center;
-            width = view.size.width;
-            height = view.size.height / 2;
-            path.segments = [];
-            path.add(view.bounds.bottomLeft);
-            for (var i = 1; i < points; i++) {
-                var point = new Point(width / points * i, center.y);
-                path.add(point);
-            }
-            path.add(view.bounds.bottomRight);
-            path.fullySelected = true;
-        }
-
-        function onFrame(event) {
-            pathHeight += (center.y - mousePos.y - pathHeight) / 10;
-            for (var i = 1; i < points; i++) {
-                var sinSeed = event.count + (i + i % 10) * 100;
-                var sinHeight = Math.sin(sinSeed / 200) * pathHeight;
-                var yPos = Math.sin(sinSeed / 100) * sinHeight + height;
-                path.segments[i].point.y = yPos;
-            }
-            if (smooth)
-                path.smooth({ type: 'continuous' });
-        }
-
-        function onMouseMove(event) {
-            mousePos = event.point;
-        }
-
-        function onMouseDown(event) {
-            smooth = !smooth;
-            if (!smooth) {
-                // If smooth has been turned off, we need to reset
-                // the handles of the path:
-                for (var i = 0, l = path.segments.length; i < l; i++) {
-                    var segment = path.segments[i];
-                    segment.handleIn = segment.handleOut = null;
-                }
-            }
-        }
-
-        // Reposition the path whenever the window is resized:
-        function onResize(event) {
-            initializePath();
-        }
-    </script>
-    <script src="js/main.js"></script>
 </body>
-
 </html>
