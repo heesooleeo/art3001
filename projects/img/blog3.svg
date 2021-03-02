@@ -5,11 +5,38 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
    height="297mm"
    viewBox="0 0 210 297"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="blog3.svg"
+   inkscape:export-filename="/Users/heesoo/Documents/SCHOOL/ART3001/new_art3001/art3001/projects/img/blog3.png"
+   inkscape:export-xdpi="95.900002"
+   inkscape:export-ydpi="95.900002"
+   inkscape:version="1.0.2 (e86c8708, 2021-01-15)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1429"
+     inkscape:window-height="764"
+     id="namedview846"
+     showgrid="false"
+     inkscape:zoom="0.56034652"
+     inkscape:cx="396.85039"
+     inkscape:cy="350.7982"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g35" />
   <defs
      id="defs2" />
   <metadata
@@ -20,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -39,19 +66,6 @@
            d="M 53.487,14.512 A 2.834,2.834 0 0 0 50.649,11.68 H 8.541 A 2.832,2.832 0 0 0 5.706,14.512 V 42.568 H 53.487 Z M 50.549,39.158 H 8.641 V 15.811 h 41.908 z"
            id="path14" />
       </g>
-      <text
-         x="0"
-         y="80"
-         fill="#000000"
-         font-size="5px"
-         font-weight="bold"
-         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
-         id="text20"
-         style="white-space:pre;inline-size:17.534"
-         transform="matrix(3.2128087,0,0,3.2128087,9.5606023,-185.45804)"
-         xml:space="preserve"><tspan
-           x="0"
-           y="80"><tspan>Blog</tspan></tspan></text>
     </g>
   </g>
 </svg>

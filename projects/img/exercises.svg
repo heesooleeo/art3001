@@ -13,7 +13,10 @@
    version="1.1"
    id="svg93"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="projects.svg">
+   sodipodi:docname="exercises.svg"
+   inkscape:export-filename="/Users/heesoo/Documents/SCHOOL/ART3001/new_art3001/art3001/projects/img/exercises.png"
+   inkscape:export-xdpi="95.900002"
+   inkscape:export-ydpi="95.900002">
   <defs
      id="defs87" />
   <sodipodi:namedview
@@ -24,15 +27,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="400"
-     inkscape:cy="560"
+     inkscape:cx="0.58492688"
+     inkscape:cy="538.85384"
      inkscape:document-units="mm"
      inkscape:current-layer="g130"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1204"
      inkscape:window-height="812"
-     inkscape:window-x="395"
+     inkscape:window-x="236"
      inkscape:window-y="23"
      inkscape:window-maximized="0" />
   <metadata
@@ -43,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -85,16 +88,6 @@
          height="7.7374015"
          id="rect107"
          style="stroke-width:1.35696" />
-      <text
-         x="-13.221118"
-         y="99.572891"
-         fill="#000000"
-         font-size="22.0914px"
-         font-weight="bold"
-         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
-         id="text109"
-         transform="scale(0.90368033,1.106586)"
-         style="stroke-width:4.41828">Exercises</text>
       <text
          x="0"
          y="120"

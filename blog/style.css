@@ -17,7 +17,7 @@
     /* z-index: 2; */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 2fr 0.5fr;
+    grid-template-rows: 1fr 0.3fr 2fr 2fr 0.5fr;
     justify-content: center;
 }
 
@@ -45,10 +45,17 @@
     font-weight: bold;
 }
 
+.blogtitle h1 {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
 #scribble {
-    border-image: url(../projects/img/bottomborderimage.png);
-    border-image-repeat: none;
-    border-image-slice: 100%;
+    background: url(../projects/img/bottomborderimage.png) no-repeat center center;
+    grid-column: 4/7;
+    grid-row: 2/3;
+    background-size: contain;
+    height: 25px;
 
 }
 
@@ -60,85 +67,85 @@ button {
 .bloga {
     display: grid;
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogb {
     display: grid;
     grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogc {
     display: grid;
     grid-column: 4/5;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogd {
     display: grid;
     grid-column: 5/6;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .bloge {
     display: grid;
     grid-column: 6/7;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogf {
     display: grid;
     grid-column: 7/8;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogg {
     display: grid;
     grid-column: 8/9;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 .blogh {
     display: grid;
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogi {
     display: grid;
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogj {
     display: grid;
     grid-column: 4/5;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogk {
     display: grid;
     grid-column: 5/6;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogl {
     display: grid;
     grid-column: 6/7;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogm {
     display: grid;
     grid-column: 7/8;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 .blogn {
     display: grid;
     grid-column: 8/9;
-    grid-row: 3/4;
+    grid-row: 4/5;
 }
 
 /* EAch Blog Content Column Grid Stuff */
@@ -154,7 +161,7 @@ button {
 
 .blogcolumn2 {
     display: grid;
-    grid-column: 2/3;
+    grid-column: 3/4;
     padding-top: 60px;
     padding-bottom: auto;
     padding-left: 15px;
@@ -163,7 +170,7 @@ button {
 
 .blogcolumn3 {
     display: grid;
-    grid-column: 3/4;
+    grid-column: 4/5;
     padding-top: 20px;
 }
 

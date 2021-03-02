@@ -13,7 +13,10 @@
    version="1.1"
    id="svg449"
    inkscape:version="1.0.2 (e86c8708, 2021-01-15)"
-   sodipodi:docname="project2.svg">
+   sodipodi:docname="project2.svg"
+   inkscape:export-filename="/Users/heesoo/Documents/SCHOOL/ART3001/new_art3001/art3001/projects/img/project2.png"
+   inkscape:export-xdpi="95.900002"
+   inkscape:export-ydpi="95.900002">
   <defs
      id="defs443" />
   <sodipodi:namedview
@@ -30,7 +33,7 @@
      inkscape:current-layer="g510"
      inkscape:document-rotation="0"
      showgrid="false"
-     inkscape:window-width="1252"
+     inkscape:window-width="1423"
      inkscape:window-height="813"
      inkscape:window-x="0"
      inkscape:window-y="23"
@@ -43,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -133,16 +136,6 @@
            d="M 19.549,26.914 A 2,2 0 0 0 21,25 V 23 A 2,2 0 0 0 19,21 H 7 a 2,2 0 0 0 -2,2 v 2 a 2,2 0 0 0 1.451,1.914 L 10,31.351 v 1.3 L 6.451,37.086 A 2,2 0 0 0 5,39 v 2 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 V 39 A 2,2 0 0 0 19.549,37.086 L 16,32.649 v -1.3 z M 7,23 h 12 v 2 H 7 Z m 0,18 v -2 h 12 v 2 z M 14.438,33.9 16.92,37 H 9.08 l 2.481,-3.1 A 2,2 0 0 0 12,32.649 v -1.3 A 2,2 0 0 0 11.562,30.1 L 9.08,27 h 7.84 l -2.481,3.1 A 2,2 0 0 0 14,31.351 v 1.3 a 2,2 0 0 0 0.438,1.249 z"
            id="path477" />
       </g>
-      <text
-         x="0.74938607"
-         y="98.335419"
-         fill="#000000"
-         font-size="22.6471px"
-         font-weight="bold"
-         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
-         id="text481"
-         transform="scale(0.83794553,1.193395)"
-         style="stroke-width:4.5294">Projects</text>
     </g>
   </g>
 </svg>
