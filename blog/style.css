@@ -1,3 +1,7 @@
+.blogs-handwriting {
+    font-family: 'Reenie Beanie', cursive; font-size: 30px;
+}    
+
 .blogbg {
     background-size: 20px 20px;
     background-image:
@@ -17,16 +21,35 @@
     justify-content: center;
 }
 
+.bloggridbg {
+    background-size: 20px 20px;
+    background-image:
+        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
+        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+    position: relative;
+    height: 79.5%;
+    width: 84.8%;
+    background-color: transparent;
+    background-origin: initial;
+    /* border: 10px dotted black; */
+    padding: 25px;
+    /* z-index: 2; */
+}
+
 .blogtitle {
     display: grid;
     grid-column: 4/7;
     grid-row: 1/2;
     text-align: center;
+    color: #41403E;
+    font-weight: bold;
 }
 
 #scribble {
     border-image: url(../projects/img/bottomborderimage.png);
-    width: 200px;
+    border-image-repeat: none;
+    border-image-slice: 100%;
+
 }
 
 button {
@@ -117,6 +140,52 @@ button {
     grid-column: 8/9;
     grid-row: 3/4;
 }
+
+/* EAch Blog Content Column Grid Stuff */
+.blogcolumngrid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.8fr 3fr;
+}
+
+.blogcolumn1 {
+    display: grid;
+    grid-column: 1/2;
+}
+
+.blogcolumn2 {
+    display: grid;
+    grid-column: 2/3;
+    padding-top: 60px;
+    padding-bottom: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.blogcolumn3 {
+    display: grid;
+    grid-column: 3/4;
+    padding-top: 20px;
+}
+
+.blogarrowgrid {
+    display: grid;
+    grid-template-columns: repeat(8, 0.5fr);
+}
+
+.blogbackarrow {
+    display: grid block;
+    grid-column: 1/2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogforwardarrow {
+    display: grid block;
+    grid-column: 8/9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* Imperfect Buttons */
 @import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
