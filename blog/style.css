@@ -1,0 +1,188 @@
+.blogbg {
+    background-size: 20px 20px;
+    background-image:
+        linear-gradient(to right, #C7ACA1 1px, transparent 1px),
+        linear-gradient(to bottom, #C7ACA1 1px, transparent 1px);
+    position: relative;
+    height: 79.5%;
+    width: 84.8%;
+    background-color: transparent;
+    background-origin: initial;
+    /* border: 10px dotted black; */
+    padding: 25px;
+    /* z-index: 2; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 0.5fr;
+    justify-content: center;
+}
+
+.blogtitle {
+    display: grid;
+    grid-column: 4/7;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+#scribble {
+    border-image: url(../projects/img/bottomborderimage.png);
+    width: 200px;
+}
+
+button {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+}
+
+.bloga {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.blogb {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.blogc {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.blogd {
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+.bloge {
+    display: grid;
+    grid-column: 6/7;
+    grid-row: 2/3;
+}
+
+.blogf {
+    display: grid;
+    grid-column: 7/8;
+    grid-row: 2/3;
+}
+
+.blogg {
+    display: grid;
+    grid-column: 8/9;
+    grid-row: 2/3;
+}
+
+.blogh {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.blogi {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.blogj {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.blogk {
+    display: grid;
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+.blogl {
+    display: grid;
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+
+.blogm {
+    display: grid;
+    grid-column: 7/8;
+    grid-row: 3/4;
+}
+
+.blogn {
+    display: grid;
+    grid-column: 8/9;
+    grid-row: 3/4;
+}
+
+/* Imperfect Buttons */
+@import url(https://fonts.googleapis.com/css?family=Patrick+Hand+SC);
+* {
+  box-sizing: border-box;
+}
+
+.button {
+  align-self: center;
+  background: transparent;
+  padding: 1rem 1rem;
+  margin: 0 1rem;
+  transition: all 0.5s ease;
+  color: #41403E;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, 0.2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /*
+  Above is shorthand for:
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  border-bottom-right-radius: 225px 15px;
+  border-bottom-left-radius:15px 255px;
+  */
+}
+.button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, 0.3);
+}
+.linedthick {
+  border: solid 7px #41403E;
+}
+
+.dottedthick {
+  border: dotted 5px #41403E;
+}
+
+.dashedthick {
+  border: dashed 5px #41403E;
+}
+
+.linedthin {
+  border: solid 2px #41403E;
+}
+
+.dottedthin {
+  border: dotted 2px #41403E;
+}
+
+.dashedthin {
+  border: dashed 2px #41403E;
+}
+
+@media (max-width: 620px) {
+  body h1 {
+    margin-top: 2rem;
+  }
+  body section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  body section button {
+    align-self: center;
+    margin-bottom: 2rem;
+  }
+}
