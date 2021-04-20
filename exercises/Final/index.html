@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/scrollAnimate.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/scrollAnimate.js"></script>
+</head>
+<body>
+    <div class="container">
+        
+            <div class="arisize" id="animation-container"></div>
+    
+    </div>
+    
+
+    <script>
+        var slowness = 500;
+        var $aContainer = document.getElementById("animation-container");
+        var aContainerRect = $aContainer.getBoundingClientRect();
+        var start = aContainerRect.top;
+        var length = aContainerRect.height + slowness; //Height of the container plus a offset for better presentation
+        scrollAnimate({
+            frames: {
+                path: "frames1/",
+                prefix: "frame_",
+                extension: "jpg",
+                amount: 19,
+                pad:"00" // Optional
+            },
+            parent: $aContainer,
+            scroll: {
+                start: 0,
+                length: length
+            }
+        });
+
+
+        document.addEventListener("scroll", function(){
+            console.log(window.scrollY);
+            var h = $("body").css("height");
+            $("body").css("height", 100 + parseInt(h));
+            console.log(parseInt(h));
+        })
+    </script>
+    
+</body>
+</html>

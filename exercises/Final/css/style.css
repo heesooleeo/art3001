@@ -1,0 +1,22 @@
+body {
+    height: 2000px; 
+    background: #c1c2a4
+}
+
+.container {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+}
+
+.arisize{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.arisize canvas {
+    width: 70%;
+}
